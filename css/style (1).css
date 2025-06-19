@@ -1,0 +1,157 @@
+/*reset e estilos básicos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif';
+}
+body {
+  background-image : url('../img/fundo.jpg'); /* Imagem de fundo */
+  background-size: 100% 100%;     /* Mostra a imagem inteira, sem cortes */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;    /* Cor de fallback para espaços vazios */
+  margin: 0;
+  min-height: 100vh;
+  color: #333;
+  line-height: 1.6;
+  padding: 0x 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin: 0;                /* Remove margens padrão do navegador */
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+/*Cabeçalho*/
+header {
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px 0;
+    background-color: #6D5644 /* Cor de fundo do cabeçalho */;
+    color: #D7CAC1; /* Cor do texto do cabeçalho */
+    padding: 0%;
+    border-radius: 0%;
+    box-shadow: 0 0px 0px rgba(#D7CAC1);
+}
+
+.header-container {
+    display: flex;          /* Usa Flexbox para alinhar a logo e o texto */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px;              /* Espaçamento entre a logo e o texto */
+}
+
+.logo {
+    width: 150px;           /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+.header-text {
+    flex: 1;               /* Ocupa o espaço restante */
+}
+
+.menu {
+    display: flex;         /* Organiza os links do menu em linha */
+    gap: 45px;             /* Espaçamento entre os links */
+    margin-top: 40px;      /* Distância entre o h1 e o menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #D7CAC1;           /* Cor dos links */
+    font-weight: bold;
+}
+
+.intro-socio {
+    background-color: #9D8A7C; /* Marrom base */
+    padding: 20px;
+    margin: 30px 0;
+    color: #2D1E17; /* Cor do texto */
+    border: 03px solid #523F31; /* Borda escura em todos os lados */
+    box-shadow: 2px 2px 5px #523F31; /* Sombra sutil */
+    border-radius: 10px; /* Cantos arredondados */
+    max-width: 50%; /* Ou um valor fixo como 600px se preferir */
+}
+
+.introducao-sociologia h3 {
+    color: white; /* Título em branco */
+    margin-top: 0;
+}
+
+/* Navegação */
+nav {
+    margin-bottom: 30px;
+    background-color: #6D5644; 
+    border-radius: 5px;
+    font-family: Concert One, cursive;
+    color: #D7CAC1; /* Cor do texto do menu */
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+    color: #D7CAC1; /* Cor do texto do menu */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:  #D7CAC1; /* Cor do texto do menu */;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #6D5644;
+}
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo do conteúdo principal */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+/* Estilo para citações */
+blockquote {
+    font-style: italic;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #6D5644;
+    margin: 20px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #6D5644; /* Cor de fundo do rodapé */
+    color: #D7CAC1; /* Cor do texto do rodapé */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+}
