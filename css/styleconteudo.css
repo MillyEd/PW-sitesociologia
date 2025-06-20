@@ -1,0 +1,113 @@
+/*reset e estilos básicos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif';
+}
+body {
+    background: url('/img/fundo.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    padding: 0x 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 100%;
+}
+/*Cabeçalho*/
+header {
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px 0;
+    background-color: #6D5644;
+    color: #D7CAC1; 
+    padding: 0%;
+    border-radius: 0%;
+    box-shadow: 0 0px 0px rgba(#D7CAC1);
+}
+
+.header-container {
+    display: flex;          
+    align-items: flex-start; 
+    gap: 20px;              
+    background: transparent;
+}
+
+.logo {
+    width: 150px;           
+    height: auto;
+}
+
+.header-text {
+    flex: 1;              
+}
+
+.menu {
+    display: flex;         
+    gap: 45px;             
+    margin-top: 40px;      
+}
+
+.menu a {
+    text-decoration: none;
+    color: #D7CAC1;           
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: transparent; 
+    border-radius: 5px;
+    box-shadow: none; 
+}
+  
+
+
+
+
+
+
+
+/*Cabeçalho*/
+header {
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px 0;
+    background-color: #6D5644 /* Cor de fundo do cabeçalho */;
+    color: #D7CAC1; /* Cor do texto do cabeçalho */
+    padding: 0%;
+    border-radius: 0%;
+    box-shadow: 0 0px 0px rgba(#D7CAC1);
+}
+
+.header-container {
+    display: flex;          /* Usa Flexbox para alinhar a logo e o texto */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px;              /* Espaçamento entre a logo e o texto */
+}
+
+.logo {
+    width: 150px;           /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+.header-text {
+    flex: 1;               /* Ocupa o espaço restante */
+}
+
+.menu {
+    display: flex;         /* Organiza os links do menu em linha */
+    gap: 45px;             /* Espaçamento entre os links */
+    margin-top: 40px;      /* Distância entre o h1 e o menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #D7CAC1;           /* Cor dos links */
+    font-weight: bold;
+}

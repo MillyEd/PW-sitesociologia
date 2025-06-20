@@ -1,0 +1,240 @@
+/*reset e estilos básicos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif';
+}
+body {
+    background: url('/img/fundo.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    padding: 0x 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 100%;
+}
+
+
+/*Cabeçalho*/
+header {
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px 0;
+    background-color: #6D5644 /* Cor de fundo do cabeçalho */;
+    color: #D7CAC1; /* Cor do texto do cabeçalho */
+    padding: 0%;
+    border-radius: 0%;
+    box-shadow: 0 0px 0px rgba(#D7CAC1);
+}
+
+.header-container {
+    display: flex;          /* Usa Flexbox para alinhar a logo e o texto */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px;              /* Espaçamento entre a logo e o texto */
+    background: transparent;
+}
+
+.logo {
+    width: 150px;           /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+.header-text {
+    flex: 1;               /* Ocupa o espaço restante */
+}
+
+.menu {
+    display: flex;         /* Organiza os links do menu em linha */
+    gap: 45px;             /* Espaçamento entre os links */
+    margin-top: 40px;      /* Distância entre o h1 e o menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #D7CAC1;           /* Cor dos links */
+    font-weight: bold;
+    padding: 5px 10px;           /* Espaçamento interno */
+    transition: all 0.3s ease;    /* Suaviza a transição */
+}
+
+.menu a:hover {
+    color: #412D24;              /* Cor do texto (branco) */
+    transform: translateY(-2px); /* Levanta levemente o link */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+main {
+    padding: 20px;
+    background-color: transparent; 
+    border-radius: 5px;
+    box-shadow: none; 
+}
+
+
+.intro-socio {
+    background-color: #9D8A7C; /* Marrom base */
+    padding: 20px;
+    margin: 30px 0;
+    color: #2D1E17; /* Cor do texto */
+    border: 03px solid #523F31; /* Borda escura em todos os lados */
+    box-shadow: 2px 2px 5px #523F31; /* Sombra sutil */
+    border-radius: 10px; /* Cantos arredondados */
+    max-width: 50%; /* Ou um valor fixo como 600px se preferir */
+}
+
+.introducao-sociologia h3 {
+    color: white; /* Título em branco */
+    margin-top: 0;
+}
+
+.importancia {
+    flex: 1;                /* Cada seção ocupa metade do espaço */
+    padding: 20px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.importancia h3,
+.importancia .destaque-box span {
+    color: white; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra no texto para melhor legibilidade */
+}
+
+.importancia ul {
+    padding-left: 20px;
+    color: white
+}
+
+
+/* Container principal (Flexbox) */
+.container {
+    display: flex;
+    gap: 30px; /* Espaço entre as colunas */
+    background: transparent;
+}
+
+/* Estilo das colunas */
+.intro-socio, .importancia {
+    flex: 1; /* Divide o espaço igualmente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #2D1E17;
+}
+/* Container da seção "Importância" */
+.importancia {
+    width: 100%;               /* Ocupa toda a largura */
+    margin-top: 20px;          /* Espaço acima do título */
+}
+
+/* Título alinhado à esquerda */
+.importancia h3 {
+    text-align: left;          /* Alinhamento à esquerda */
+    margin-bottom: 15px;       /* Espaço abaixo do título */
+    color: #8B4513;            /* Cor café (opcional) */
+}
+
+/* Lista sem marcadores e alinhada à esquerda */
+.importancia ul {
+    list-style-type: none;     /* Remove marcadores (bolinhas) */
+    padding-left: 0;           /* Remove recuo padrão */
+}
+
+/* Estilo dos tópicos com background */
+.importancia .destaque-box {
+    margin-bottom: 10px;
+    list-style-type: none;          /* Remove os marcadores de lista */
+    margin-bottom: 10px;            /* Espaço entre as caixas */
+}
+
+.importancia .destaque-box span {
+    display: inline-block;                 /* Transforma em bloco para ocupar toda a largura */
+    padding: 10px 15px;            /* Espaçamento interno */
+    background-color: #523F31;      /* Cor de fundo cinza claro */
+    border-radius: 5px;             /* Bordas arredondadas */
+    width: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    color: #C4B6AB;
+}
+
+
+/* Navegação */
+nav {
+    margin-bottom: 30px;
+    background-color: #6D5644; 
+    border-radius: 5px;
+    font-family: Concert One, cursive;
+    color: #D7CAC1; /* Cor do texto do menu */
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+    color: #D7CAC1; /* Cor do texto do menu */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:  #D7CAC1; /* Cor do texto do menu */;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #6D5644;
+}
+
+
+/* Estilo para citações */
+blockquote {
+    font-style: italic;
+    padding: 20px;
+    background-color: none;
+    border-left: 5px solid;
+    margin: 20px 0;
+}
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #6D5644; /* Cor de fundo do rodapé */
+    color: #6D5644; /* Cor do texto do rodapé */
+    border-radius: 5px;
+}
+
+main, 
+.importancia, 
+.container, 
+footer {
+    background-color: transparent !important; /* Remove todos os fundos brancos */
+    box-shadow: none !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+}
