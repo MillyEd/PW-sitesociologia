@@ -64,9 +64,8 @@ header {
 }
 
 .menu a:hover {
-    color: #412D24;              /* Cor do texto (branco) */
+    color: #412D24;             
     transform: translateY(-2px); /* Levanta levemente o link */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
 }
 
 main {
@@ -75,7 +74,6 @@ main {
     border-radius: 5px;
     box-shadow: none; 
 }
-
 
 .intro-socio {
     background-color: #9D8A7C; /* Marrom base */
@@ -127,6 +125,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 5px #2D1E17;
 }
+
 /* Container da seção "Importância" */
 .importancia {
     width: 100%;               /* Ocupa toda a largura */
@@ -172,6 +171,7 @@ nav {
     font-family: Concert One, cursive;
     color: #D7CAC1; /* Cor do texto do menu */
 }
+
 nav ul {
     display: flex;
     justify-content: center;
