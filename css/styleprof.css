@@ -111,3 +111,61 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #6D5644;
 }
+
+/* Conteúdo Principal*/
+.header-container-prof {
+  margin-top: 40px;
+}
+
+/* Alinha o título "Sobre o professor:" com um pequeno recuo */
+.prof {
+    margin-left: 40px; /* Ajuste esse valor conforme necessário */
+    text-align: left; /* Garante alinhamento à esquerda */
+}
+
+/* Ajusta o recuo da lista para ficar alinhada com o título */
+.prof-list {
+    margin-left: 40px; /* Mais recuo para a lista */
+    padding-left: 0; /* Remove padding padrão */
+    list-style-position: inside; /* Alinha marcadores com o texto */
+}
+
+/* Bloco "Sobre o professor" */
+.sobre-professor {
+background-color: #523F31; 
+color: #9D8A7C;
+padding: 25px;
+border-radius: 8px;
+margin-left: 40px;
+margin-top: 20px;
+border: #9D8A7C;
+width: calc(100% - 40px);
+max-width: 600px;
+box-shadow: 0 4px 8px #9D8A7C;
+}
+        
+.sobre-professor h2 {
+margin-top: 40px;
+color: #9D8A7C;
+border-bottom: 5px solid #9D8A7C;
+padding-bottom: 10px;
+}
+        
+.sobre-professor ul {
+padding-left: 40px;
+}
+        
+.sobre-professor li {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+        
+.sobre-professor ul ul {
+  color: #9D8A7C;
+padding-left: 40px;
+}
+
+/* Se quiser alinhar à direita */
+.sobre-professor.right {
+    margin-left: auto;
+}
