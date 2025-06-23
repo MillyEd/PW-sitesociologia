@@ -219,16 +219,25 @@ main h2 {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    .sociologos {
-        flex-direction: column;
-    }
-    
-    .menu {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .retrato-container {
-        height: 200px;
-    }
+.sociologos {
+flex-direction: column;
+}
+.menu {
+flex-direction: column;
+gap: 0.5rem;
+} 
+.retrato-container {
+height: 200px;
+} 
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #6D5644; /* Cor de fundo do rodapé */
+  color: #6D5644; /* Cor do texto do rodapé */
+  border-radius: 5px;
+  background-color: transparent !important; /* Remove todos os fundos brancos */
+  box-shadow: none !important;
 }
