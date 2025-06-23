@@ -21,74 +21,78 @@
     </div>
 </div>
 </header>
-<div class="containersugest">
-    <div class="content-wrapper">
-        <!-- Coluna Esquerda -->
-        <div class="sugestoes">
-            <h2 class="sugest">Sugestões: </h2>
-            <ul><br>
-                <li>Aqui você poderá encontrar algumas sugestões carinhosamente selecionadas a respeito do conteúdo.
-                    Há vídeos, livros e até uma aba de comentários caso queira nos enviar alguma crítica construtiva,
-                    sugestão ou elogio. Aproveite! ♡
-                </li>
-            </ul>
-        </div>
-         <!-- Coluna Direita -->
-        <div class="right-column">
-    <h3 class="titulo-livros">Sugestões de Livros</h3>
-    <div class="grid-livros">
-        <!-- Linha de 3 livros -->
-        <div class="livro">
-            <img src="/img/livro1.jpeg" alt="Capa do livro 1">
-            <p class="livro-titulo">O Livro da Sociologia</p>
-        </div>
-        <div class="livro">
-            <img src="/img/livro2.jpeg" alt="Capa do livro 2">
-            <p class="livro-titulo">Textos Básicos da Sociologia</p>
-        </div>
-        <div class="livro">
-            <img src="/img/livro3.jpeg" alt="Capa do livro 3">
-            <p class="livro-titulo">Sociologia para Leigos</p>
-        </div>
-        
-        <!-- Linha de 3 livros -->
-        <div class="livro">
-            <img src="/img/livro4.jpg" alt="Capa do livro 4">
-            <p class="livro-titulo">SOCIOLOGIA: Introdução à Ciência da Sociedade</p>
-        </div>
-        <div class="livro">
-            <img src="/img/livro5.jpeg" alt="Capa do livro 5">
-            <p class="livro-titulo">As Etapas do Pensamento Sociólogo</p>
-        </div>
-        <div class="livro">
-            <img src="/img/livro6.jpeg" alt="Capa do livro 6">
-            <p class="livro-titulo">Os ricos e os pobres: O Brasil e a desigualdade</p>
-        </div>
-    </div>
-</div>
-<div class="sugestoes">
-    <h2 class="sugest">Sugestões</h2>
-    <div class="texto-introducao">
-        <p>Aqui você poderá encontrar algumas sugestões carinhosamente selecionadas a respeito do conteúdo. 
-        Há vídeos, livros e até uma aba de comentários caso queira nos enviar alguma crítica construtiva,
-        sugestão ou elogio. Aproveite! ♡</p>
-    </div>
-
-    <!-- Formulário integrado -->
-    <div class="formulario-integrado">
+<div class="container-principal">
+    <!-- COLUNA ESQUERDA -->
+    <div class="coluna-esquerda">
+      <div class="conteudo-texto">
+        <h2>Sugestões</h2>
+        <p>Aqui você poderá encontrar algumas sugestões carinhosamente selecionadas a respeito do conteúdo. Há vídeos, livros e espaço para seus comentários.</p>
+      </div>
+      
+      <div class="area-comentarios">
         <h3>Deixe seu comentário</h3>
         <form id="formComentario">
-            <input type="text" id="nome" placeholder="Seu nome" required>
-            <textarea id="comentario" placeholder="Seu comentário..." required></textarea>
-            <div class="botoes-envio">
-                <button type="button" id="btnEmail">Enviar por Email</button>
-                <button type="button" id="btnWhatsApp">Enviar por WhatsApp</button>
-            </div>
+          <input type="text" id="nome" placeholder="Seu nome completo" required>
+          <textarea id="comentario" placeholder="Seu comentário (informe seu nome e turma)..." required></textarea>
+          <div class="botoes-acao">
+            <button type="button" id="btnEmail">Enviar por Email</button>
+            <button type="button" id="btnWhatsApp">Enviar por WhatsApp</button>
+          </div>
         </form>
+      </div>
     </div>
-</div>
-</div>
-<script src="/js/comentarios.js"></script>
 
+    <!-- COLUNA DIREITA -->
+    <div class="coluna-direita">
+      <h2>Sugestões de Livros</h2>
+      <div class="grid-livros">
+        <div class="livro">
+          <img src="/img/livro1.jpeg" alt="Livro 1">
+          <p>O livro da sociologia</p>
+        </div>
+        <div class="livro">
+          <img src="img/livro2.jpeg" alt="Livro 2">
+          <p>Textos básicos da sociologia</p>
+        </div>
+        <div class="livro">
+          <img src="img/livro3.jpeg" alt="Livro 3">
+          <p>Sociologia para leigos</p>
+        </div>
+        <div class="livro">
+          <img src="img/livro4.jpg" alt="Livro 4">
+          <p>Sociologia: introdução á ciência da sociedade</p>
+        </div>
+        <div class="livro">
+          <img src="img/livro5.jpeg" alt="Livro 5">
+          <p>As etapas do pensamento sociológico</p>
+        </div>
+        <div class="livro">
+          <img src="img/livro6.jpeg" alt="Livro 6">
+          <p>Os Ricos e os pobres</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ADICIONE ESTA NOVA SEÇÃO DE VÍDEOS -->
+  <h2 class="titulo-videos">Sugestões de Vídeos</h2>
+  <div class="grid-videos">
+    <div class="video">
+      <iframe src="https://youtu.be/M7s5ryIwi-M?si=yTsFtWLBQ625NEmB" frameborder="0" allowfullscreen></iframe>
+      <p>Introdução à Sociologia</p>
+    </div>
+    <div class="video">
+      <iframe src="https://youtu.be/UG6PTnPpYrM?si=gAdYXEMy7fKmId0M" frameborder="0" allowfullscreen></iframe>
+      <p>Teorias Sociológicas</p>
+    </div>
+    <div class="video">
+      <iframe src="https://youtu.be/DH9I1zO6Pcg?si=9XmBggUrkAS-Cuma" frameborder="0" allowfullscreen></iframe>
+      <p>Sociologia Contemporânea</p>
+    </div>
+  </div>
+</div>
+<script src="/js/script.js"></script>
+<footer>
+  <p>&copy; 2025 Café com Sociologia. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
