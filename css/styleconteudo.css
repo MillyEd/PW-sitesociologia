@@ -20,7 +20,6 @@ body {
   min-width: 100%;
 }
 
-
 /*Cabeçalho*/
 header {
   text-align: left;
@@ -76,7 +75,6 @@ main {
   box-shadow: none; 
 }
 
-
 /* Navegação */
 nav {
   margin-bottom: 30px;
@@ -112,7 +110,6 @@ nav ul li a:hover {
   background-color: #6D5644;
 }
 
-
 /* Conteúdo principal */
 main {
   max-width: 1200px;
@@ -141,9 +138,9 @@ main h2 {
 
 /* Layout dos Sociólogos */
 .sociologos {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
 }
 
 .sociologo {
@@ -182,27 +179,28 @@ main h2 {
 }
 
 .sociologo:hover .retrato {
-    transform: scale(1.05); /* Zoom leve ao passar o mouse */
-    /* Borda principal */
-    border: 5px solid #9D8A7C; /* Cor clara do cabeçalho */
+  transform: scale(1.05); /* Zoom leve ao passar o mouse */
+
+  /* Borda principal */
+  border: 5px solid #9D8A7C; /* Cor clara do cabeçalho */
     
-    /* Borda interna */
-    box-shadow: inset 0 0 0 2px #9D8A7C; /* Cor escura do cabeçalho */
+  /* Borda interna */
+  box-shadow: inset 0 0 0 2px #9D8A7C; /* Cor escura do cabeçalho */
     
-    /* Efeito de profundidade */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  /* Efeito de profundidade */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     
-    /* Cantos levemente arredondados */
-    border-radius: 2px;
+  /* Cantos levemente arredondados */
+  border-radius: 2px;
 }
 
 .sociologo:hover .retrato {
-    border-color: #5f4a3a; 
-    transform: scale(1.02);
+  border-color: #5f4a3a; 
+  transform: scale(1.02);
 }
 
 .descricao {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .descricao h3 {
